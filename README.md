@@ -21,7 +21,7 @@ VM_2 = Server
 - TCP
 - UDP
 - io_uring-based TCP
-- Proposed optimized external implementations
+- Proposed External, represented by multiple optimization variants rather than a single interchangeable binary
 
 ## Message Sizes
 - 64 B
@@ -44,6 +44,7 @@ A historical UDP run used 65000 bytes for the largest datagram.
 - [Internal Benchmarks](docs/INTERNAL_BENCHMARKS.md)
 - [External Benchmarks](docs/EXTERNAL_BENCHMARKS.md)
 - [Proposed Methods](docs/PROPOSED_METHODS.md)
+- [Study Guide](docs/STUDY_GUIDE.md)
 - [Data Processing](docs/DATA_PROCESSING.md)
 - [Results](docs/RESULTS.md)
 - [Reproducibility](docs/REPRODUCIBILITY.md)
